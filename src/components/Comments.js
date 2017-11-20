@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 
 class Comments extends Component {
+
+    static defaultProps = {
+        comments: []
+    }
+
     constructor() {
         super()
 
